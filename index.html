@@ -1,0 +1,194 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya</title>
+    <link rel="shortcut icon" href="images/AK.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;900&family=Ubuntu&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header id="header">
+        <nav class="nav-bar">
+           <a href="#header"><h2 id="name"><span>A</span>ditya</h2></a> 
+            <ul class="nav-list nav-toggle">
+                <li><a class="nav-link" href="#header">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <!-- <li><a class="nav-link" href="#my-cna">cna</a></li> -->
+                <li><a class="nav-link" href="#my-work">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <i class="fa-solid  fa-xmark"></i>
+            </ul>
+            <i id="menu"  class="fa-solid fa-bars"></i>
+        </nav>
+        <div class="mob-nav">
+            <ul class="nav-list2 nav-toggle">
+                <li><a class="nav-link" href="#header">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <!-- <li><a class="nav-link" href="#my-cna">cna</a></li> -->
+                <li><a class="nav-link" href="#my-work">Portfolio</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+                <i id="close" class="fa-solid  fa-xmark"></i>
+            </ul>
+        </div>
+        <div class="head-sec2">
+            <p id="sub-title">Student / Beginner-Developer</p>
+            <p id="heading">Hey, I'm <span>Aditya</span><br>Khade</p>
+        </div>
+    </header>
+    <div id="about">
+        <div class="row">
+            <div class="col-1">
+                <img src="images/abt.png" alt="">
+            </div>
+            <div class="col-2">
+                <h1 id="abt-heading">About Me</h1>
+                <div class="abt-container">
+                    <p id="my-info">
+                        I am a student, pursuing Btech in Computer Engineering. I was always facinated about
+                        computers,not the hardware but software always took my attention towards it and I was very
+                        excited to learn how a website, a app or how games are built and always wanted to learn it and
+                        so I took admission in Computer Engineering.
+                        And now I am happy that I am learning things day by day, well I am not yet master in anything
+                        but soon I will be.
+                        I like to learn how to built website (Front-End) also I like coding, C++ is my favourite
+                        language.
+                        I am also working on my problem solving skills, I do practice problems on Code-Chef,Leet Code
+                        when I am free. Also I do edit photos and love to click photos.
+                        My goal is to become a Software Engineer and surely I will achieve it.
+
+                    </p>
+                    <div class="sub-abt-container">
+                        <p class="abt-items active-item" onclick="show('skills')">Skills</p>
+                        <p class="abt-items" onclick="show('experience')"> Experience</p>
+                        <p class="abt-items" onclick="show('education')">Education</p>
+                    </div>
+
+                    <div class="abt-content">
+                        <ul class="tab-content active-content" id="skills">
+                            <li class="highlight">HTML</li>
+                            <li class="highlight">CSS</li>
+                            <li class="highlight">C++</li>
+                            <li class="highlight">Photo-Editing</li>
+ 
+                        </ul>
+                        <ul class="tab-content" id="experience">
+                            <li class="highlight">Currently I am a fresher but I have Projects.</li>
+
+                            
+                        </ul>
+                        <ul class="tab-content" id="education">
+                            <li class="highlight">Passed 10th in the year 2019</li>
+                            <li class="highlight">Passed 12th in the year 2021</li>
+                            <li class="highlight">Currently studying Btech in Computer Engineering</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- <div id="my-cna"> 
+        <p id="cna-heading">My Certifications & Achievements</p>
+        <div class="cna-container">
+            <div class="cna" id="cna-1">
+                <div class="cna-content">
+                    <img src="images/kaggle.png" alt="logo">
+                    <p class="cna-title">Python</p>
+                    <p>I completed this course on Kaggle on Sep 2022</p>
+                    <button class="cna-btn"><a href="">Show credentials</a></button>
+                </div>
+            </div>
+            <div class="cna" id="cna-2">
+                <div class="cna-content">
+                    <img src="images/msdne.png" alt="">
+                    <p class="cna-title">Computer Fundamental & Networking</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            <div class="cna" id="cna-3">
+                <div class="cna-content">
+                    <i class="fa-solid fa-user"></i>
+                    <p class="cna-title">Social Media Manager</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate et itaque magni at
+                        eaque ipsam sint .</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div id="my-work">
+        <p id="my-work-heading">My Work (Projects)</p>
+        <div class="my-work-container">
+            <div class="work" id="work-1">
+                <img src="images/work-1.png" alt="">
+                <div class="work-detail">
+                    <h3>Python Planner</h3>
+                    <p>This is a Planner made with Python(Tkinter). This can be used to plan your day and list-down
+                        imp work to do.
+                    </p>
+                    <a href="https://github.com/adityakhadeak/Planner-Project1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" id="work-2">
+                <img src="images/work-2.png" alt="">
+                <div class="work-detail">
+                    <h3>Food Heaven</h3>
+                    <p>This is a website for mess. Here you can have a monthly and weekly meal plans
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work" id="work-3">
+                <img src="images/work-3.png" alt="">
+                <div class="work-detail">
+                    <h3>Music Player</h3>
+                    <p>It's a music player you can add your favourite songs and listen to them.
+                    </p>
+                    <a href="https://github.com/adityakhadeak/Music-player-Project2"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <p id="contact-me">Contact Me</p>
+        <div id="contact-container">
+            <div class="contact-row">
+                <div class="contact-left">
+                    <p><i class="fa-solid fa-envelope"></i>khadeaditya1@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>9422006299</p>
+                    <div id="social-links">
+                        <a href="https://www.linkedin.com/in/aditya-khade-a14bb0219/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/aditya_khade_ak/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://twitter.com/Aditya_khade_ak"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <button  class="btn hide"><a href="#">Download CV</a></button>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your-Name" required>
+                        <input type="email" name="Email" placeholder="Your-Email" required>
+                        <textarea name="Message" rows="3" placeholder="Your-Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> © 2023 Aditya Khade. Made with <i class="fa-solid fa-heart"></i> by me</p>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c1d45e04f7.js" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>
