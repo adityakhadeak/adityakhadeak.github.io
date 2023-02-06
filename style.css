@@ -302,7 +302,7 @@ nav .fa-solid{
 }
 
 .work {
-    width: 400px;
+    width: 300px;
     margin-top: 20px;
     overflow: hidden;
     border-radius: 10px;
@@ -322,7 +322,7 @@ nav .fa-solid{
     text-align: center;
     padding: 0 30px;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgb(250, 29, 99));
+    background: linear-gradient( rgb(250, 29, 99),rgba(0, 0, 0, 0.6));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -333,7 +333,14 @@ nav .fa-solid{
     height: 100%;
     transition-duration: 0.5s;
 }
-
+.show-pro{
+    margin-top: 15px;
+    background-color:  rgb(250, 29, 99);
+    border-radius:5px ;
+    width: 90px;
+    height: 30px;
+    color: white;
+}
 .work-detail h3 {
     margin: 5px;
     font-size: 25px;
