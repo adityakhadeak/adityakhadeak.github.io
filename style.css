@@ -75,7 +75,7 @@ nav .fa-solid{
 }
 
 #name span {
-    color: rgb(250, 29, 99);
+    color: #0761D4;
 }
 
 .nav-link::after {
@@ -83,7 +83,7 @@ nav .fa-solid{
     width: 0%;
     height: 5px;
     position: absolute;
-    background-color: rgb(250, 29, 99);
+    background-color: #0761D4;
     bottom: -10px;
     left: 0;
     transition-duration: 0.5s;
@@ -113,7 +113,7 @@ nav .fa-solid{
 }
 
 #heading span {
-    color: rgb(250, 29, 99);
+    color: #0761D4;
 }
 
 .head-sec2 {
@@ -188,7 +188,7 @@ nav .fa-solid{
     width: 0;
     height: 3px;
     position: absolute;
-    background-color: rgb(250, 29, 99);
+    background-color: #0761D4;
     bottom: 0;
     left: 0;
     transition-duration: 0.5s;
@@ -235,7 +235,7 @@ nav .fa-solid{
 }
 
 .cna:hover {
-    background-color: rgb(250, 29, 99);
+    background-color: #0761D4;
     transform: translateY(-10px);
     transition: all;
     transition-duration: 0.5s;
@@ -322,7 +322,7 @@ nav .fa-solid{
     text-align: center;
     padding: 0 30px;
     overflow: hidden;
-    background: linear-gradient( rgb(250, 29, 99),rgba(0, 0, 0, 0.6));
+    background: linear-gradient( #0761D4,rgba(0, 0, 0, 0.6));
     display: flex;
     align-items: center;
     justify-content: center;
@@ -335,7 +335,7 @@ nav .fa-solid{
 }
 .show-pro{
     margin-top: 15px;
-    background-color:  rgb(250, 29, 99);
+    background-color:  #0761D4;
     border-radius:5px ;
     width: 90px;
     height: 30px;
@@ -388,7 +388,7 @@ nav .fa-solid{
 .contact-left p i {
     margin-right: 10px;
     font-size: 30px;
-    color: rgb(250, 29, 99);
+    color: #0761D4;
 }
 
 #social-links a {
@@ -399,7 +399,7 @@ nav .fa-solid{
 }
 
 #social-links a:hover {
-    color: rgb(250, 29, 99);
+    color: #0761D4;
     transform: translateY(-5px);
     transition: transform 0.5s;
 }
@@ -434,7 +434,7 @@ form textarea {
     font-size: 15px;
     width: 150px;
     color: #fff;
-    background-color: rgb(250, 29, 99);
+    background-color: #0761D4;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
@@ -458,7 +458,7 @@ form textarea {
 }
 
 .copyright p i {
-    color: rgb(250, 29, 99);
+    color: #0761D4;
 }
 
 #msg {
@@ -472,6 +472,7 @@ form textarea {
 }
 #menu {
     display: none;
+    color: #0761D4;
 }
 
 nav i {
@@ -532,7 +533,7 @@ nav i {
         right: 0;
         top: 0;
         height: 100vh;
-        background-color: rgb(250, 29, 99);
+        background-color: #0761D4;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -559,7 +560,7 @@ nav i {
         right: 0;
         top: 0;
         height: 150vh;
-        background-color: rgb(250, 29, 99);
+        background-color: #0761D4;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
