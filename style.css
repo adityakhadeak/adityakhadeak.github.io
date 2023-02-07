@@ -502,8 +502,7 @@ nav i {
     }
 
     .head-sec2 {
-         position: fixed;
-        top: 170px;
+            margin-top: 100%;
     }
 
     #sub-title {
