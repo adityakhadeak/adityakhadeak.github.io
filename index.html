@@ -24,7 +24,7 @@
             <ul class="nav-list nav-toggle">
                 <li><a class="nav-link" href="#header">Home</a></li>
                 <li><a class="nav-link" href="#about">About</a></li>
-                <!-- <li><a class="nav-link" href="#my-cna">cna</a></li> -->
+                <li><a class="nav-link" href="#my-skills">Skills</a></li>
                 <li><a class="nav-link" href="#my-work">Portfolio</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
                 <i class="fa-solid  fa-xmark"></i>
@@ -35,7 +35,7 @@
             <ul class="nav-list2 nav-toggle">
                 <li><a class="nav-link" href="#header">Home</a></li>
                 <li><a class="nav-link" href="#about">About</a></li>
-                <!-- <li><a class="nav-link" href="#my-cna">cna</a></li> -->
+                <li><a class="nav-link" href="#my-skills">Skills</a></li>
                 <li><a class="nav-link" href="#my-work">Portfolio</a></li>
                 <li><a class="nav-link" href="#contact">Contact</a></li>
                 <i id="close" class="fa-solid  fa-xmark"></i>
@@ -48,9 +48,6 @@
     </header>
     <div id="about">
         <div class="row">
-            <div class="col-1">
-                <img src="images/abt.png" alt="">
-            </div>
             <div class="col-2">
                 <h1 id="abt-heading">About Me</h1>
                 <div class="abt-container">
@@ -69,31 +66,115 @@
 
                     </p>
                     <div class="sub-abt-container">
-                        <p class="abt-items active-item" onclick="show('skills')">Skills</p>
+                        <p class="abt-items active-item" onclick="show('education')">Education</p>
                         <p class="abt-items" onclick="show('experience')"> Experience</p>
-                        <p class="abt-items" onclick="show('education')">Education</p>
+                        <p class="abt-items " onclick="show('atpresent')">At Present</p>
                     </div>
 
                     <div class="abt-content">
-                        <ul class="tab-content active-content" id="skills">
-                            <li class="highlight">HTML</li>
-                            <li class="highlight">CSS</li>
-                            <li class="highlight">C++</li>
-                            <li class="highlight">Photo-Editing</li>
-
+                        <ul class="tab-content active-content" id="education">
+                            <li class=" abt-titles"><span>></span> Pillai College of Engineering</li>
+                            <li class="abt-info">Pursuing Btech Computer Engineering</li>
+                            <li class=" abt-titles"><span>></span> PACE IIT & Medical</li>
+                            <li class="abt-info">Completed 12th in the year 2021</li>
+                            <li class=" abt-titles"><span>></span> Holy Writ High School & Junior College</li>
+                            <li class="abt-info">Completed 10th in the year 2019</li>
                         </ul>
                         <ul class="tab-content" id="experience">
-                            <li class="highlight">Currently I am a fresher but I have Projects.</li>
-
+                            <li class="abt-info">Currently I am a fresher but I have Projects.</li>
+                        </ul>
+                        <ul class="tab-content" id="atpresent">
+                            <li class=" abt-titles"><span>></span> Internship</li>
+                            <li class="abt-info">Full Stack Intern at Innomatics Research Labs</li>
+                            <li class=" abt-titles"><span>></span> Education</li>
+                            <li class="abt-info">In Fourth Semester</li>
+                            <li class=" abt-titles"><span>></span> Projects</li>
+                            <li class="abt-info">Working on some college project & some other projects too</li>
 
                         </ul>
-                        <ul class="tab-content" id="education">
-                            <li class="highlight">Passed 10th in the year 2019</li>
-                            <li class="highlight">Passed 12th in the year 2021</li>
-                            <li class="highlight">Currently studying Btech in Computer Engineering</li>
-                        </ul>
+
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="my-skills">
+        <h1 id="my-skills-heading">My Skills</h1>
+        <div class="my-skills-container-1">
+            <div class="skill" id="skill-1">
+                <h3>Web development</h3>
+                <i class=" skill-icon fa-solid fa-laptop-code"></i>
+                <p>Proficient in HTML, CSS, and Javascript and now working on Backend with willingness to continously
+                    learn and improve</p>
+            </div>
+            <div class="skill" id="skill-2">
+                <h3>Competitive Programming </h3>
+                <i class=" skill-icon fa-solid fa-cube"></i>
+                <p>I have recently started CP and I do practice questions on Code-Chef and LeetCode. Not best but I am
+                    trying my level best to be best in CP.
+                </p>
+            </div>
+            <div class="skill" id="skill-3">
+                <h3>Photo Editing</h3>
+                <i class=" skill-icon fa-solid fa-wand-magic-sparkles"></i>
+                <p>I like to edit and click photos. I think I am pretty good at editing photos on mobile using
+                    Lightroom, Picsart and many more tools
+                </p>
+            </div>
+
+        </div>
+
+        <div id=my-skills-sub-heading-con>
+            <p id="my-skills-sub-heading">Tools and Programming languages that I use for development and making projects
+        </div>
+        </p>
+
+        <div class="my-skills-container-2">
+            <div class="skill-tool" id="skill-tool-1">
+                <img src="images/html.png">
+                <h3>HTML</h3>
+                <p>I use this language for creating Websites.</p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-2">
+                <img src="images/css.png">
+                <h3>CSS</h3>
+                <p>For styling and designing Websites.</p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-3">
+                <img src="images/js.png">
+                <h3>JavaScript</h3>
+                <p>I use this language for making websites responsive and build them with full functionality.
+                </p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-4">
+                <img src="images/git.png">
+                <h3>Git Hub</h3>
+                <p>I use this tool for publishing my works and projects in the repository, and also contributing in open
+                    source projects.</p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-5">
+                <img src="images/python.png">
+                <h3>Python</h3>
+                <p>I am learning this programming language and I have also build some projects using this language.</p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-6">
+                <img src="images/c++.png">
+                <h3>C++</h3>
+                <p>I am learning this programming language and I do prefer this language in Competitive Coding also this
+                    is my favourite language.</p>
+
+            </div>
+            <div class="skill-tool" id="skill-tool-6">
+                <img src="images/c.png">
+                <h3>C</h3>
+                <p>This is the first language which I learnt </p>
+
             </div>
         </div>
     </div>
@@ -130,12 +211,13 @@
         <p id="my-work-heading">My Work (Projects)</p>
         <div class="my-work-container">
             <div class="work" id="work-3">
-                <img src="images/work-2.png" alt="">
-                <div class="work-detail">
-                    <h3>Tic-Tac Toe Game</h3>
+                <h3>Tic-Tac Toe Game</h3>
+                <img src="/images/tictactoe.png" alt="" srcset="">
                     <p>It's simple game which we play on paper in classroom.
                         It is build with pure HTML, CSS & JavaScript
                     </p>
+                <div class="work-detail">
+                    
                     <button class="show-pro"><a target="_blank"
                             href="https://github.com/adityakhadeak/TicTacToe-Project3">
                             Show Code </a></button>
@@ -145,12 +227,13 @@
                 </div>
             </div>
             <div class="work" id="work-1">
-                <img src="images/work-1.png" alt="">
-                <div class="work-detail">
-                    <h3>Python Planner</h3>
+                <h3>Python Planner</h3>
+                <img src="/images/planner.png" alt="" srcset="">
                     <p>This is a Planner made with Python(Tkinter). This can be used to plan your day and list-down
                         imp work to do.
                     </p>
+                <div class="work-detail">
+                    
                     <button class="show-pro"><a target="_blank"
                             href="https://github.com/adityakhadeak/Planner-Project1">
                             Show Code </a></button>
@@ -158,20 +241,23 @@
                 </div>
             </div>
             <div class="work" id="work-2">
-                <img src="images/work-2.png" alt="">
+                <h3>Food Heaven</h3>
+                <img src="/images/foodheaven.png" alt="" srcset="">
+                <p>This is a website for mess. Here you can have a monthly and weekly meal plans
+                </p>
                 <div class="work-detail">
-                    <h3>Food Heaven</h3>
-                    <p>This is a website for mess. Here you can have a monthly and weekly meal plans
-                    </p>
-                    <a href="#"></a>
+                    <button class="show-pro"><a target="_blank"
+                        href="https://github.com/adityakhadeak/FoodHeaven">
+                        Show Code </a></button>
                 </div>
             </div>
             <div class="work" id="work-3">
-                <img src="images/work-3.png" alt="">
+                <h3>Music Player</h3>
+                <img src="/images/musicplayer.png" alt="" srcset="">
+                <p>It's a music player you can add your favourite songs and listen to them.
+                </p>
                 <div class="work-detail">
-                    <h3>Music Player</h3>
-                    <p>It's a music player you can add your favourite songs and listen to them.
-                    </p>
+                    
                     <button class="show-pro"><a target="_blank"
                             href="https://github.com/adityakhadeak/Music-player-Project2">
                             Show Code </a></button>
@@ -186,7 +272,8 @@
         <div id="contact-container">
             <div class="contact-row">
                 <div class="contact-left">
-                    <p><i class="fa-solid fa-envelope"></i><a href="mailto:khadeaditya1@gmail.com">khadeaditya1@gmail.com</a></p>
+                    <p><i class="fa-solid fa-envelope"></i><a
+                            href="mailto:khadeaditya1@gmail.com">khadeaditya1@gmail.com</a></p>
                     <p><i class="fa-solid fa-phone"></i><a href="tel:+919422006299">9422006299</a></p>
                     <div id="social-links">
                         <a href="https://www.linkedin.com/in/aditya-khade-a14bb0219/"><i

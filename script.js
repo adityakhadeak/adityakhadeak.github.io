@@ -12,6 +12,11 @@ function show(tabname) {
     document.getElementById(tabname).classList.add("active-content")
 }
 
+
+//  My-Skill Div
+ let skill=document.querySelectorAll(".skill")
+
+
 // For showing and hiding of menu nav bar in mobile view
 let menu = document.getElementById("menu")
 let body=document.querySelector("body")
